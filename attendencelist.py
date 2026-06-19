@@ -1,9 +1,9 @@
 import streamlit as st
 import math
 
-st.set_page_config(page_title="SRM Attendance", page_icon="🎓")
+st.set_page_config(page_title="CVV Attendance", page_icon="🎓")
 
-st.title("🎓 SRM Attendance Planner")
+st.title("🎓 CVV Attendance Planner")
 st.write("Calculate exactly how many classes you can skip or need to attend to maintain your target attendance.")
 
 goal = st.slider("🎯 Set Your Attendance Goal (%)", min_value=75, max_value=100, value=75, step=1)
@@ -77,4 +77,4 @@ else:
             st.error(f"🚨 Still short! Attend {still_needed} more class(es) on top of this to reach {goal}%.")
 
 st.markdown("---")
-st.markdown("Built with pure Python by [Abhinav Ram](https://www.linkedin.com/in/abhinav-ram-b81243380/) 🎓")
+st.markdown("Built with pure Python by [Nikilesh N](www.linkedin.com/in/nikilesh-n/) 🎓")
