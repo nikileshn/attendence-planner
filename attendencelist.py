@@ -6,7 +6,7 @@ st.set_page_config(page_title="CVV Attendance", page_icon="🎓")
 st.title("🎓 CVV Attendance Planner")
 st.write("Calculate exactly how many classes you can skip or need to attend to maintain your target attendance.")
 
-goal = st.slider("🎯 Set Your Attendance Goal (%)", min_value=75, max_value=100, value=75, step=1)
+goal = st.slider("🎯 Set Your Attendance Goal (%)", min_value=65, max_value=100, value=65, step=1)
 goal_fraction = goal / 100
 
 st.markdown("---")
